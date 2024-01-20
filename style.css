@@ -1,0 +1,175 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    height: 30vh;
+    width: 98vw;
+    display: flex;
+}
+
+.container1{
+    height: 30vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.container2{
+    height: 30vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container2 img{
+    height: 20vh;
+    width: 15vw;
+}
+
+.container3{
+    height: 30vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container1 span:nth-child(1){
+    color: rgb(243, 129, 36);
+    text-decoration: underline;
+}
+
+.container3 span:nth-child(1){
+    color: rgb(243, 129, 36);
+    text-decoration: underline;
+}
+
+/* header is completed */
+
+#nav{
+    display: flex;
+    margin-top: 5vh;
+    border: 2px solid black;
+}
+
+
+#nav img{
+     height: 30px;
+     width: 30px;
+     margin-top: 1.7vh;
+     margin-left: 1vw;
+}
+
+#nav h3{
+    margin-left: 20vw;
+}
+
+/* nav is completed */
+
+
+#main1{
+    width: 98vw;
+    height: 110vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.mcontainer1{
+    width: 30vw;
+    height: 110vh;
+}
+
+.mcontainer1 p span{
+    color: aqua;
+    font-weight: 400;
+}
+
+
+.mcontainer2{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 5vw;
+}
+
+/* main1 end */
+
+#main2{
+    margin-top: 7vh;
+    width: 98vw;
+    height: 110vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.ncontainer1{
+    width: 30vw;
+    height: 110vh;
+}
+
+.ncontainer1 p span{
+    color: rgb(255, 136, 0);
+    font-weight: 400;
+}
+
+.mcontainer2{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 5vw;
+}
+
+/* main2 end */
+
+#main3{
+    margin-top: 7vh;
+    width: 98vw;
+    height: 110vh;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.ocontainer1{
+    width: 30vw;
+    height: 110vh;
+}
+
+.ocontainer1 p span{
+    color: rgb(0, 255, 42);
+    font-weight: 400;
+}
+
+.ocontainer2{
+    width: 60vw;
+    height: 80vh;
+    margin-left: 5vw;}
+    
+
+#footer{
+    width: 98vw;
+    height: 5vh;
+    background: #000;
+
+}  
+
+#footer h3{
+    color: antiquewhite;
+    text-align: center;
+}
